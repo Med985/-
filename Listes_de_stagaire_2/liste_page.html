@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة المتربصين</title>
+    <link rel="stylesheet" href="liste_page.css">
+    <script src="add.js"></script>
+</head>
+<body>
+    <div>
+        <p class="p1">تسجيل المتربصين</p>
+        <input type="text" placeholder="ادخل الاسم و اللقب :" id="n1">
+        <input type="text" placeholder="تاريخ بداية التمهين :"  id="n2">
+        <input type="text" placeholder="التخصص :" id="n3">
+        <input type="text" placeholder=" نوع  الشهادة :" id="n4">
+        <input type="text" placeholder="تاريخ نهاية التمهين :" id="n5">
+        <input type="tel" placeholder=" رقم الهاتف :" id="n6">
+        <button onclick="add()"> حفظ</button>
+        <p id="p"></p>
+    </div>
+    <div class="file-actions">
+    <button onclick="downloadJSON()" class="btn-download">تحميل نسخة احتياطية (ملف)</button>
+    
+    <label for="uploadFile" class="btn-upload">رفع ملف البيانات لتعويضها</label>
+    <input type="file" id="uploadFile" onchange="importJSON(event)" style="display:none">
+</div>
+</body>
+</html>

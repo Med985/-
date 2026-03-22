@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة المتربصين</title>
+    <link rel="stylesheet" href="search_page.css">
+    <script src="list.js"></script>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="ابحث هنا..." onkeyup="searchData()">
+        <ul class="ul"></ul>
+        <button onclick="downloadCSV()" style="background-color: #28a745; color: white; padding: 10px; border-radius: 5px; cursor: pointer;">
+    تحميل البيانات (Excel)
+</button>
+    </div>  
+</body>
+</html>
