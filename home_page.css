@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    direction: rtl;
+    background-image: url('r4.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: none;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ transition: all 0.3s ease-in-out;
+}
+h1{
+    text-align: right;
+    color: black;
+    zoom: 120%;
+}
+
+.c2{
+    margin: auto;
+    margin-top:110px ;
+margin-right:470px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+border: 0.5px solid black;
+border-radius: 5px;
+padding: 10px;
+width: fit-content;
+height: fit-content;
+box-shadow: 1px 1px 2.5px black;
+backdrop-filter: blur(5px);
+box-shadow: 5px 5px 15px black;
+ transition: all 0.3s ease-in-out;
+}
+input{
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+      border-radius: 5px;
+    border: 1px solid black;
+}
+input::placeholder{
+    color: lightgray;}
+button{
+    margin-top: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: fantasy;
+    font-size: large;
+}
+button:hover{
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    border: 0.5px solid black;
+    border-radius: 5px;
+    zoom: 110%;
+    box-shadow: 2px 2px 5px black;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+input:focus{
+    outline: none;
+    border: 2px solid black;
+    box-shadow: 2 2 5px black;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    zoom: 101%;}
